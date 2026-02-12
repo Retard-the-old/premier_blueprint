@@ -83,7 +83,8 @@ async function sendTemplate(toNumber) {
   return twilioClient.messages.create({
     from: "whatsapp:+971504095079",
     to: `whatsapp:${toNumber}`,
-    contentSid: "HXf5f95d60ca9dc0f4ce743de60376fbb2",
+    //contentSid: "HXf5f95d60ca9dc0f4ce743de60376fbb2",
+     contentSid: "HX034d351d1041ce22cd971eb3be6efad3",
     contentVariables: JSON.stringify({ 1: "there" })
   })
 }
